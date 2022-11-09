@@ -1,0 +1,27 @@
+# load data from local file
+vaccine = read.csv("data/Tick.csv", head=T)
+
+# Quick look at top 5 rows of data
+head(vaccine)
+
+# Size of data
+dim(vaccine)
+
+# R's classification of data
+class(vaccine)
+
+# R's classification of variables
+str(vaccine)
+
+#Research question 1: Which state has the highest vaccination, regardless of the vaccine type?
+help(barplot)
+par(mar=c(6,7,4,2)+0.2)
+barplot(vaccine$sums,names.arg=vaccine$Region,ylab = "Total sales of tick vaccine", xlab = "" ,col = "lightblue", las=3, cex.names=0.5)
+
+#Research question2: Which type of the tick vaccine is more accepted by the public?
+#create the data frame for the percentages of frozen and chilled tick vaccine sales calcuated by hands
+df = data.frame(
+  Vaccine.types = c("Chilled", "Frozen"),
+  percentages = c(0.94,0.06)
+  )
+head(df)
