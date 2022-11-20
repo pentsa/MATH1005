@@ -33,7 +33,8 @@ The data of the Tick Fever Vaccine sales was provided by Queensland Governemnt o
 After retreival of the dataset, data cleaning was conducted to eliminate the null and zero values. In order to understand the data set, classification of the variables were conducted. Within the three variables identified from the dataset, two of them were qualitative varibles while the other one was quantitative varible for sales. Lastly, data wanrlging was completed to merge the cells with the same regions into one. Therefore, the region column changed from 26 to 13 variables. One extra column was added for the sums of the vaccine sales in each region as well. This column is used for later processing.
 
 ### Investigation of the Tick Fever vaccination rates across the states in Australia
+The sales for the tick vaccine between the different regions of Australia varied significantly which is revealed in the barplot. The barplot was cutomised to better visdualise the result. The las argument allows to change the orientation of the axis labels to vertical. The axis size was also customised using the cex.names argument. 
 
 
 ### Investigation of the sales for the Tick Fever Vaccine in the frozen and chilled forms 
-A data frame was first created to record the calculated percentages of frozen and chilled tick vaccine sales. The data was then visdulised using a barplot with the function of ggplot. After all, a pie char was creating as an extension of the bar graph to even better illutrate the sales of the vaccine in two different forms. 
+A data frame was first created to record the calculated percentages of frozen and chilled tick vaccine sales. The data was then visdulised using a barplot with the function of ggplot. Following by the bar graph, a pie chart was created using the polar coordinates argument as an extension of the bar graph to better illutrate the sales of the vaccine in two different forms. 
