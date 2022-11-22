@@ -1,4 +1,4 @@
-# MATH1005
+# Australia Tick Fever Vaccination Rate
 ## Introduction 
 This project aims to investigate the vaccination rate of Tick Fever vaccine acorss different states in Australia. Using the data obtained from the Agriculture and Fisheries of Queensland Government, we were able to conduct data profiling, mining and analysis using R studio. The research discovered that central Queensland had the highest amount of tick vaccine sales compared to any other state in Australia. On the other hand, frozen vaccines were a lot more popular than chilled vaccines due to the fact that they had a lot longer shelf life. This report provides ingihts for the Australian government to reallocate its production of the Tick Fever vaccine based on the market demand. It also provides insights for the government to improve the vaccination rate in Australia in order to prevent the spread of tick fever. 
 ### Resulting graphs 
